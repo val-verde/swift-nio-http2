@@ -23,7 +23,7 @@ let package = Package(
         .library(name: "NIOHTTP2", targets: ["NIOHTTP2"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/val-verde/swift-nio.git", .branch("dutch-master")),
+        .package(url: "https://github.com/val-verde/swift-nio.git", .branch("dutch-android-master")),
     ],
     targets: [
         .target(name: "NIOHTTP2Server",
